@@ -1,3 +1,4 @@
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
@@ -108,21 +109,12 @@ main {
     padding: 20px;
   }
   .container--main {
-  display: flex;
-}
-.education-section,
-.tools-section,
-.skills-section {
-  flex: 1;
-}
-
-.education-section ul,
-.tools-section ul,
-.skills-section ul {
-  padding-left: 30px; /* Задайте здесь нужный вам отступ от левого края */
-}
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   main {
     margin-top: 0;
     margin-bottom: 20px;
+    padding-left: 30px;
   }
 }
