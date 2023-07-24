@@ -113,11 +113,11 @@ main {
   main {
     margin-top: 0;
     margin-bottom: 20px;
-   p {
-	text-align: left;
-     } 
   }
   .work__position {
     font-size: 18px;
   }
+  p {
+     text-align: left;
+     } 
 }
