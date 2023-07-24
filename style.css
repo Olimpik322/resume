@@ -117,6 +117,10 @@ main {
   .work__position {
     font-size: 18px;
   }
+  .study {
+    text-align: left;
+  }
+    
   p {
      text-align: left;
      } 
