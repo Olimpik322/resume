@@ -117,11 +117,20 @@ main {
   .work__position {
     font-size: 18px;
   }
-  .study {
-    text-align: left;
-  }
-    
-  p {
-     text-align: left;
-     } 
+  .education-section {
+  margin-left: 20px; /* Задайте здесь нужный вам отступ от левого края */
+}
+
+.education-section h3 {
+  margin: 0;
+  color: #37517E;
+}
+
+.study {
+  margin-left: 10px; /* Задайте здесь нужный вам отступ от "Образование" */
+}
+
+.study .text--bold {
+  font-weight: bold;
+}
 }
