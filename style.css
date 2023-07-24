@@ -84,6 +84,7 @@ main {
 }
 .text--bold {
   font-weight: 900;
+  text-align: left;
 }
 .work__position {
   font-size: 24px;
@@ -114,23 +115,4 @@ main {
     margin-top: 0;
     margin-bottom: 20px;
   }
-  .work__position {
-    font-size: 18px;
-  }
-  .education-section {
-  margin-left: 20px; /* Задайте здесь нужный вам отступ от левого края */
-}
-
-.education-section h3 {
-  margin: 0;
-  color: #37517E;
-}
-
-.study {
-  margin-left: 10px; /* Задайте здесь нужный вам отступ от "Образование" */
-}
-
-.study .text--bold {
-  font-weight: bold;
-}
 }
