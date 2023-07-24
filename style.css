@@ -37,8 +37,8 @@ main {
   list-style-type: none;
 }
 .avatar {
-  width: 300px;
-  height: 300px;
+  width: 330px;
+  height: 315px;
   border-radius: 10px;
 }
 .logo {
@@ -79,7 +79,7 @@ main {
 }
 .contact__link {
   display: flex;
-  align-items: center;
+  align-items: left;
   margin-bottom: 10px;
 }
 .text--bold {
