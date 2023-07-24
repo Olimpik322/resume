@@ -108,9 +108,19 @@ main {
     padding: 20px;
   }
   .container--main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
+  display: flex;
+}
+.education-section,
+.tools-section,
+.skills-section {
+  flex: 1;
+}
+
+.education-section ul,
+.tools-section ul,
+.skills-section ul {
+  padding-left: 30px; /* Задайте здесь нужный вам отступ от левого края */
+}
   main {
     margin-top: 0;
     margin-bottom: 20px;
