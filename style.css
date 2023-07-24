@@ -116,5 +116,8 @@ main {
   }
   .work__position {
     font-size: 18px;
+p {
+text-align: left;
+}
   }
 }
