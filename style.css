@@ -16,6 +16,8 @@ h1 {
   font-size: 48px;
   font-weight: bold;
   color: #37517E;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 h2 {
   font-family: "Roboto", sans-serif;
@@ -77,6 +79,7 @@ main {
   flex: 1;
   padding-left: 50px;
   padding-right: 50px;
+  
 }
 .contact__link {
   display: flex;
@@ -107,8 +110,6 @@ main {
   }
   .header {
     padding: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
   }
   .container--main {
     padding-left: 20px;
