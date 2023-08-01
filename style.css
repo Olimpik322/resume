@@ -95,7 +95,6 @@ main {
 }
 .list li {
   margin-bottom: 15px;
-  padding-left: 20px;
 }
 
 @media (max-width: 1032px) {
