@@ -73,14 +73,13 @@ main {
 }
 .container--header {
   display: flex;
-  gap: 90px;
+  gap: 50px;
 }
 .header {
   padding: 40px;
 }
 .header__info {
-  flex: 1;
-  padding-left: 150px;  
+  flex: 1;  
 }
 .contact__link {
   display: flex;
