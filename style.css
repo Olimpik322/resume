@@ -38,6 +38,7 @@ main {
 }
 .list {
   list-style-type: none;
+  padding-left: 0px;
 }
 .avatar {
   width: 330px;
@@ -85,7 +86,6 @@ main {
   display: flex;
   align-items: left;
   margin-bottom: 10px;
-  padding-left: 0px;
 }
 .text--bold {
   font-weight: 900;
