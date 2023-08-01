@@ -80,9 +80,7 @@ main {
 }
 .header__info {
   flex: 1;
-  padding-left: 50px;
-  padding-right: 50px;
-  
+  padding-left: 150px;  
 }
 .contact__link {
   display: flex;
