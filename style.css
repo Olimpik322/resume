@@ -107,6 +107,8 @@ main {
   }
   .header {
     padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   .container--main {
     padding-left: 20px;
