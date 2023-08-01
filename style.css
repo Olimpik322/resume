@@ -85,6 +85,7 @@ main {
   display: flex;
   align-items: left;
   margin-bottom: 10px;
+  padding-left: 0px;
 }
 .text--bold {
   font-weight: 900;
