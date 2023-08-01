@@ -40,7 +40,7 @@ main {
 }
 .list {
   list-style-type: none;
-  padding-left: none;
+  padding-left: 0px;
 }
 .avatar {
   width: 330px;
