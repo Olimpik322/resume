@@ -49,7 +49,7 @@ main {
 }
 .name {
   border-bottom: 3px solid #37517E;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   max-width: 500px;
 }
 .profession {
@@ -68,7 +68,7 @@ main {
 }
 .container--header {
   display: flex;
-  gap: 30px;
+  gap: 60px;
 }
 .header {
   padding: 60px;
