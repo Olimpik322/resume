@@ -71,9 +71,6 @@ main {
   padding-left: 60px;
   padding-right: 60px; 
 }
-.education-section {
-  width: 300px;
-}
 .container--header {
   display: flex;
   gap: 50px;
