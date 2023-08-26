@@ -67,7 +67,6 @@ main {
 .container--main {
   display: grid;
   grid-template-columns: 400px 1fr;
-  width: 300px
   gap: 90px;
   padding-left: 60px;
   padding-right: 60px; 
