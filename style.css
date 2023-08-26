@@ -69,7 +69,9 @@ main {
   grid-template-columns: 400px 1fr;
   gap: 90px;
   padding-left: 60px;
-  padding-right: 60px;  
+  padding-right: 60px; 
+  .education-section {
+  grid-template-columns: 300px
 }
 .container--header {
   display: flex;
