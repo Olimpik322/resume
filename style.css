@@ -1,12 +1,13 @@
-/Общие стили */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     line-height: 1.6;
+    color: #333;
 }
 
-h1, h2, h3 {
-    font-weight: normal; /Убираем стандартное жирное написание заголовков */
+h1, h2, h3, h4 {
+    font-weight: normal; 
+    margin-bottom: 0.5em;
 }
 
 h1 {
@@ -15,25 +16,25 @@ h1 {
 
 h3 {
     font-size: 1.2em;
-    margin-bottom: 0.5em;
 }
 
+h4 {
+    font-size: 1.1em;
+    font-style: italic; 
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 .text--bold {
     font-weight: bold;
 }
-
-/Стили для header */
 .header {
     background-color: #f0f0f0;
     padding: 20px 0;
+    border-bottom: 1px solid #ddd; 
 }
-
 .avatar {
     width: 150px;
     height: 150px;
@@ -41,89 +42,74 @@ h3 {
     float: left;
     margin-right: 20px;
 }
-
-.header__info {
-  /Убираем лишний отступ сверху */
+.header__info {    
 }
-
 .divider {
     margin: 10px 0;
     border-top: 1px solid #ccc;
 }
-
-
 .container--header {
     display: flex;
-    align-items: center; /Выравнивание по вертикали */
+    align-items: center; 
 }
-
-/Стили для контактов */
 .contacts {
     margin-bottom: 20px;
 }
-
 .list {
     list-style: none;
     padding: 0;
 }
-
 .list li {
     margin-bottom: 10px;
 }
-
 .logo {
     width: 20px;
     height: 20px;
     margin-right: 5px;
-    vertical-align: middle; /Выравнивание логотипа и текста */
+    vertical-align: middle; 
 }
-
-.contact__link{
-  text-decoration: none; /Убираем подчеркивание ссылок */
-  color: #333;
+.contact__link {
+    text-decoration: none; 
+    color: #333;
 }
-
-/Стили для секции с образованием */
-.education-section, .tools, .skills {
+.education-section, .tools, .skills, .about-me-section, .language {
     margin-bottom: 20px;
 }
-
-/Стили для секции с инструментами */
-.tools ul {
+.tools ul, .skills ul {
     list-style-type: disc;
     padding-left: 20px;
 }
-
-/Стили для секции с навыками */
-.skills ul {
-    list-style-type: disc;
-    padding-left: 20px;
+.about-me-section p {
+    margin-bottom: 1em;
 }
-
-
-/Стили для about-me */
-.about-me-section {
-    margin-bottom: 20px;
-}
-
-/Отступы для разделов */
 .left-section {
-  margin-right: 20px; /Отступ между левой и правой колонками */
-  width: 70%; /Задаем ширину левой колонки */
+  margin-right: 20px; 
+  width: 70%; 
   float: left;
 }
-
 .right-section {
-  width: 30%; /Задаем ширину правой колонки */
+  width: 30%; 
   float: right;
 }
-
 @media (max-width: 768px) {
-  /Отзывчивый дизайн для экранов меньше 768 пикселей */
   .left-section, .right-section {
     width: 100%;
-    float: none; /Убираем плавающие колонки */
-    margin-right: 0; /Убираем отступ между колонками */
+    float: none; 
+    margin-right: 0; 
+  }
+  .container--header {
+    flex-direction: column; 
+    align-items: center;
+  }
+  .avatar {
+    margin-bottom: 10px;
+    margin-right: 0; 
+    float: none;
   }
 }
-
+.left-section, .right-section {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
