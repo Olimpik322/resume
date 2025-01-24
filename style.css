@@ -1,123 +1,129 @@
-
+/Общие стили */
 body {
-  font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0;
-  max-width: 1920px;
-  margin: 0 auto;
-  border: 1px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
 }
-.header {
-  background-color: #FFFFFF;
-  border-bottom: 3px solid #37517E;
+
+h1, h2, h3 {
+    font-weight: normal; /Убираем стандартное жирное написание заголовков */
 }
+
 h1 {
-  font-family: "Lato", sans-serif;
-  font-size: 48px;
-  font-weight: bold;
-  color: #37517E;
-  margin-top: 0px;
-  margin-bottom: 0px;
+    font-size: 2em;
 }
-h2 {
-  font-family: "Roboto", sans-serif;
-  font-size: 32px;
-  text-transform: uppercase;
-  color: #37517E;
-}
+
 h3 {
-  font-family: "Lato", sans-serif;
-  font-size: 25px;
-  margin-bottom: 10px;
-  margin-top: 25px;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
 }
-a {
-  color: inherit;
-}
-main {
-  margin-top: 20px;
-  margin-bottom: 60px;
-}
-.list {
-  list-style-type: none;
-  padding-left: 0px;
-}
-.avatar {
-  width: 330px;
-  height: 315px;
-  border-radius: 10px;
-}
-.logo {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-.name {
-  border-bottom: 3px solid #37517E;
-  padding-bottom: 15px;
-  max-width: 500px;
-}
-.profession {
-  padding-top: 15px;
-}
+
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
-.container--main {
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  gap: 90px;
-  padding-left: 60px;
-  padding-right: 60px; 
-}
-.container--header {
-  display: flex;
-  gap: 50px;
-}
-.header {
-  padding: 40px;
-}
-.header__info {
-  flex: 1;  
-}
-.contact__link {
-  display: flex;
-  align-items: left;
-  margin-bottom: 10px;
-}
+
 .text--bold {
-  font-weight: 900;
-  text-align: left;
-}
-.work__position {
-  font-size: 24px;
-}
-.list li {
-  margin-bottom: 15px;
+    font-weight: bold;
 }
 
-@media (max-width: 1032px) {
-  .container--main {
-    display: block;
-  }
+/Стили для header */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px 0;
 }
 
-@media (max-width: 730px) {
-  .container--header {
-    display: block;
-    text-align: left;
-  }
-  .header {
-    padding: 20px;
-  }
-  .container--main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  main {
-    margin-top: 0;
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.header__info {
+  /Убираем лишний отступ сверху */
+}
+
+.divider {
+    margin: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+
+.container--header {
+    display: flex;
+    align-items: center; /Выравнивание по вертикали */
+}
+
+/Стили для контактов */
+.contacts {
     margin-bottom: 20px;
-    padding-left: 30px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle; /Выравнивание логотипа и текста */
+}
+
+.contact__link{
+  text-decoration: none; /Убираем подчеркивание ссылок */
+  color: #333;
+}
+
+/Стили для секции с образованием */
+.education-section, .tools, .skills {
+    margin-bottom: 20px;
+}
+
+/Стили для секции с инструментами */
+.tools ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/Стили для секции с навыками */
+.skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+/Стили для about-me */
+.about-me-section {
+    margin-bottom: 20px;
+}
+
+/Отступы для разделов */
+.left-section {
+  margin-right: 20px; /Отступ между левой и правой колонками */
+  width: 70%; /Задаем ширину левой колонки */
+  float: left;
+}
+
+.right-section {
+  width: 30%; /Задаем ширину правой колонки */
+  float: right;
+}
+
+@media (max-width: 768px) {
+  /Отзывчивый дизайн для экранов меньше 768 пикселей */
+  .left-section, .right-section {
+    width: 100%;
+    float: none; /Убираем плавающие колонки */
+    margin-right: 0; /Убираем отступ между колонками */
   }
 }
+
