@@ -1,129 +1,150 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dyakonov</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <div class="header">
-        <div class="container container--header">
-            <img class="avatar" src="img/image 3.JPG" alt="Фотография Дениса Диаконова">
-            <div class="header__info">
-                <h1 class="name">Denis Diakonov</h1>
-                <hr class="divider">
-                <h3 class="profession">QA Engineer</h3>
-            </div>
-        </div>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+<div class="header">
+  <div class="container container--header">
+    <img class="avatar" src="img/image 3.JPG" alt="Фотография Дениса Диаконова" />
+    <div class="header__info">
+      <h1 class="name">Denis Diakonov</h1>
+      <div class="divider"></div>
+      <div class="profession"><h3>QA Engineer</h3></div>
     </div>
+  </div>
+</div>
     <main>
-        <div class="container container--main">
-            <div class="left-section">
-                <div class="contacts">
-                    <h3>Contacts</h3>
-                    <ul class="list">
-                        <li>
-                            <a class="contact__link" href="https://www.behance.net/olimpik322" target="_blank">
-                                <img class="logo" src="img/behance.png" alt="behance">
-                                olimpik322
-                            </a>
-                        </li>
-                        <li>
-                            <a class="contact__link" href="mailto:dyakonovd99@gmail.com">
-                                <img class="logo" src="img/email.png" alt="email">
-                                dyakonovd99@gmail.com
-                            </a>
-                        </li>
-                        <li>
-                            <a class="contact__link" href="https://www.linkedin.com/in/olimpik/" target="_blank">
-                                <img class="logo" src="img/linkedin.png" alt="linkedin">
-                                denis-dyakonov
-                            </a>
-                        </li>
-                        <li>
-                            <a class="contact__link" href="https://github.com/Olimpik322" target="_blank">
-                                <img class="logo" src="img/github-logo.png" alt="github">
-                                github.com/Olimpik322
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="education-section">
-                    <h3>Education</h3>
-                    <div class="study">
-                        <span class="text--bold">Volgograd State Technical University</span>
-                    </div>
-                    <p>Faculty of Technological Processes and Production Automation</p>
-                    <div>
-                        <span class="text--bold">Sep 2019 - Feb 2023</span>
-                    </div>
-                </div>
-                <div class="tools">
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>Figma</li>
-                        <li>MySQL</li>
-                        <li>Jira</li>
-                        <li>Confluence</li>
-                        <li>GIT</li>
-                        <li>Postman</li>
-                    </ul>
-                </div>
-                <div class="skills">
-                    <h3>Skills</h3>
-                    <ul>
-                        <li>Testing theory</li>
-                        <li>Test documentation (test-cases, checklists, bug-reports)</li>
-                        <li>Client-server architecture</li>
-                        <li>HTTP</li>
-                        <li>SQL</li>
-                        <li>XML&JSON</li>
-                        <li>DevTools</li>
-                        <li>Teamwork</li>
-                        <li>Mentoring</li>
-                    </ul>
-                </div>
-                <div class="right-section">
-                <div class="about-me-section">
-                    <h3>Обо мне</h3>
-                    <p>На данный момент активно занимаюсь обучением и изучением в сфере тестирования. Имеется опыт разработки макетов в Figma. Обладаю знаниями в области тестирования, техник тест-дизайна.</p>
-                    <p>Есть опыт работы в смежных областях. Опыт использования различных операционных систем. Умею работать в команде, занимался наставничеством. Всегда готов много работать и изучать что-то новое для себя.</p>
-
-                    <h3>Опыт</h3>
-                    <p>Прошел курсы и выполнил практические задания на платформе Hexlet и Stepik, среди которых: Жизненный цикл ПО, Введение в Git, Этапы тестирования, Тестирование веб-приложений, Основы SQL и др.</p>
-                    <p>За время прохождения курсов завершил проект “<strong>Тестирование интернет-магазина</strong>”.</p>
-
-                    <h4>В процессе работы было сделано:</h4>
-                    <ul>
-                        <li>анализ требований;</li>
-                        <li>проведение тест анализа, составление и тестирование тест-кейсов;</li>
-                        <li>составление баг-репортов по итогам выполнения тестирования;</li>
-                        <li>проведение регрессионного тестирования.</li>
-                    </ul>
-
-                    <h4>В работе использованы:</h4>
-                    <ul>
-                        <li>Хостинг репозиториев Github</li>
-                        <li>VSCode</li>
-                        <li>Язык разметки YAML</li>
-                    </ul>
-                </div>   
-                </div>
-                <div class="language">
-                    <h3>Languages</h3>
-                    <span class="text--bold">English</span> - Intermediate B1 <br>
-                    <span class="text--bold">Russian</span> - Native
-                </div>
-            </div>
-            <div class="right-section">
-                </div>
+      <div class="container container--main">
+        <div>
+          <div class="contacts">
+            <h3>Contacts</h3>
+            <ul class="list">
+              <li>
+                <a
+                  class="contact__link"
+                  href="https://www.behance.net/olimpik322"
+                  target="_blank"
+                  ><img
+                    class="logo"
+                    src="img/behance.png"
+                    alt="behance"
+                  />olimpik322</a
+                >
+              </li>
+              <li>
+                <a class="contact__link" href="mailto:dyakonovd99@gmail.com"
+                  ><img
+                    class="logo"
+                    src="img/email.png"
+                    alt="email"
+                  />dyakonovd99@gmail.com</a
+                >
+              </li>
+              <li>
+                <a
+                  class="contact__link"
+                  href="https://www.linkedin.com/in/olimpik/"
+                  target="_blank"
+                  ><img
+                    class="logo"
+                    src="img/linkedin.png"
+                    alt="linkedin"
+                  />denis-dyakonov</a>
+              </li>
+              <li>
+                <a
+                  class="contact__link"
+                  href="https://github.com/Olimpik322"
+                  target="_blank"
+                  ><img
+                    class="logo"
+                    src="img/github-logo.png"
+                    alt="github"
+                  />github.com/Olimpik322</a>
+              </li>
+            </ul>
+          </div>
+      <div class="education-section">
+        <h3>Education</h3>
+        <div class="study">
+        <span> class="text--bold"
+        Volgograd State Technical University</span>
         </div>
-    </main>
+        Faculty of Technological Processes and Production Automation
+        <div
+        <span class="text--bold"
+           >Sep 2019 - Feb 2023</span> 
+        </div>
+      </div>
+      <div class="tools">
+        <h3>Tools</h3>
+         <ul>
+        <li>Figma</li>
+        <li>MySQL</li>
+        <li>Jira</li>
+        <li>Confluence</li>
+        <li>GIT</li>
+        <li>Postman</li>
+         </ul>
+      </div>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>Testing theory</li>
+          <li>Test documentation (test-cases, checklists, bug-reports)</li>
+          <li>Client-server architecture</li>
+          <li>HTTP</li>
+          <li>SQL</li>
+          <li>XML&JSON</li>
+          <li>DevTools</li>
+          <li>Teamwork</li>
+          <li>Mentoring</li>
+        </ul>
+      </div>
+    </div>
+    <div class="right-section">
+       <div class="about-me-section">
+        <h3>Обо мне</h3>
+    <p>На данный момент активно занимаюсь обучением и изучением в сфере тестирования. Имеется опыт разработки макетов в Figma. Обладаю знаниями в области тестирования, техник тест-дизайна.</p>
+    <p>Есть опыт работы в смежных областях. Опыт использования различных операционных систем. Умею работать в команде, занимался наставничеством. Всегда готов много работать и изучать что-то новое для себя.</p>
+
+    <h3>Опыт</h3>
+    <p>Прошел курсы и выполнил практические задания на платформе Hexlet и Stepik, среди которых: Жизненный цикл ПО, Введение в Git, Этапы тестирования, Тестирование веб-приложений, Основы SQL и др.</p>
+    <p>За время прохождения курсов завершил проект “<strong>Тестирование интернет-магазина</strong>”.</p>
+
+    <h4>В процессе работы было сделано:</h4>
+    <ul>
+        <li>анализ требований;</li>
+        <li>проведение тест анализа, составление и тестирование тест-кейсов;</li>
+        <li>составление баг-репортов по итогам выполнения тестирования;</li>
+        <li>проведение регрессионного тестирования.</li>
+    </ul>
+
+    <h4>В работе использованы:</h4>
+    <ul>
+        <li>Хостинг репозиториев Github</li>
+        <li>VSCode</li>
+        <li>Язык разметки YAML</li>
+    </ul>
+       </div>
+      <div class="language">
+        <h3>Languages</h3>
+        <span class="text--bold"> English</span> - Intermediate B1 <br/>
+        <span class="text--bold">Russia</span> - Native
+       </div>
+    </div>
+  </div>
 </body>
 </html>
