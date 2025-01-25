@@ -72,7 +72,7 @@ main {
 }
 .container--header {
   display: flex;
-  gap: 73px;
+  gap: 72px;
 }
 .about-me-section {
     width: 660px;
