@@ -66,13 +66,13 @@ main {
 .container--main {
   display: grid;
   grid-template-columns: 315px 1fr;
-  gap: 75px;
+  gap: 80px;
   padding-left: 60px;
   padding-right: 60px; 
 }
 .container--header {
   display: flex;
-  gap: 70px;
+  gap: 73px;
 }
 .about-me-section {
     width: 660px;
